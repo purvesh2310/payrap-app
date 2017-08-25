@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SeQ-zb-Xu0">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="3W2-6K-JgA">
+                                        <rect key="frame" x="87.5" y="130" width="200" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="dzw-w7-qOR"/>
+                                            <constraint firstAttribute="width" constant="200" id="kLI-NY-1Bw"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PayRap" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tfH-Oc-tQu">
+                                        <rect key="frame" x="141.5" y="365" width="93.5" height="34"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="28"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.090196078431372548" green="0.76862745098039209" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="tfH-Oc-tQu" firstAttribute="top" secondItem="3W2-6K-JgA" secondAttribute="bottom" constant="35" id="KPo-C6-KGj"/>
+                                    <constraint firstItem="3W2-6K-JgA" firstAttribute="top" secondItem="SeQ-zb-Xu0" secondAttribute="top" constant="130" id="T2T-g7-CQx"/>
+                                    <constraint firstItem="3W2-6K-JgA" firstAttribute="centerX" secondItem="SeQ-zb-Xu0" secondAttribute="centerX" id="WC0-Cz-5mz"/>
+                                    <constraint firstItem="tfH-Oc-tQu" firstAttribute="centerX" secondItem="SeQ-zb-Xu0" secondAttribute="centerX" id="rIO-E3-bht"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="SeQ-zb-Xu0" secondAttribute="bottom" id="4H4-8g-WUG"/>
+                            <constraint firstItem="SeQ-zb-Xu0" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="7JP-hw-Zne"/>
+                            <constraint firstAttribute="trailing" secondItem="SeQ-zb-Xu0" secondAttribute="trailing" id="Ech-pj-iC3"/>
+                            <constraint firstItem="SeQ-zb-Xu0" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="hnL-X9-RSs"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="256" height="256"/>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_PayRap {
+  umbrella header "Pods-PayRap-umbrella.h"
+
+  export *
+  module * { export * }
+}
