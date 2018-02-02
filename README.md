@@ -8,4 +8,9 @@ This is an iOS app developed in Swift for making the money tasks easier and conv
 
 ## Architecture Diagram
 
+<img align="center" src="https://image.ibb.co/mh6ZER/Architecture_Diagram.png">
+
+
+
+
 ### Mobile App Video: https://youtu.be/u3e-qUQv2n4
